@@ -53,16 +53,18 @@ function ProjectCard({ project, isExpanded, isFiltered, onClick, isInitialLoad, 
 						{project.tagline && <span className="project-tagline">{project.tagline}</span>}
 					</div>
 					<p className="project-date">{project.date}</p>
-					{project.link && (
-						<a
-							href={project.link}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="visit-site-btn"
-							onClick={(e) => e.stopPropagation()}>
-							Visit Site
-						</a>
-					)}
+					{project.links &&
+						project.links.map((link, index) => (
+							<a
+								key={index}
+								href={link.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="visit-site-btn"
+								onClick={(e) => e.stopPropagation()}>
+								{link.label}
+							</a>
+						))}
 					<div className="project-images">
 						{images.map((img, index) => (
 							<img key={index} src={img} alt={`${project.title} ${index + 1}`} loading="lazy" />

@@ -43,7 +43,7 @@ export const projects = [
 		date: "2024-05",
 		narrative:
 			"Every summer, biology students at Knox college spend 10 weeks in the woods for a semester of outdoor learning. This sattelite campus is sited between a forest, a lake, and an undisturbed prarie preserve which is one of the world's most endangered habitats. The location means that students have the opportunity to study and enjoy several different midwestern ecosystems. However, the main multi-purpose building on site is an aging horse barn which is not able to cope with the increased size and curriculum of the outdoor learning program. The challenge in this project was to foster learning without disturbing the precious local habitat. Distinct spaces enable active learning throughout the day and restful solitude at night. The learning and dining areas are communal, while the bunk rooms were carefully arranged so that each student has their own window at the head of their bed. The building's sensitivity to the site included sustainable aspects such as robust insulation and air barrier, along with opportunities for natural light and ventilation.",
-		
+
 		layout: "carousel",
 	},
 	{
@@ -99,7 +99,7 @@ export const projects = [
 		narrative:
 			"Check the weather, manage tasks, and monitor your projects all in one place with this sleek and intuitive dashboard design. Featuring real-time data updates, a user-friendly interface, and selectable color schemes, this dashboard is perfect for professionals looking to stay organized and efficient throughout their day.",
 		layout: "carousel",
-		link: "https://lukebobuke.github.io/dashboard/",
+		links: [{ url: "https://lukebobuke.github.io/dashboard/", label: "Visit Site" }],
 	},
 	{
 		id: 10,
@@ -108,8 +108,23 @@ export const projects = [
 		tagline: "A personal project",
 		folder: "follies",
 		date: "2020-09",
-		narrative:
-			"A series of playful architectural follies designed to engage the imagination and encourage exploration.",
+		narrative: "A series of playful architectural follies designed to engage the imagination and encourage exploration.",
 		layout: "carousel",
+	},
+	{
+		id: 11,
+		title: "Showcase",
+		category: "coding",
+		tagline: "A personal project",
+		folder: "showcase",
+		date: "2026-02",
+		narrative:
+			"Musicians need more than just a link tree. They need a way to showcase their work and personality. This full-stack app lets artists create rich, customizable landing pages with tour dates on interactive maps, photo galleries, video embeds, and social links. Built mobile-first with React, Express, and PostgreSQL.",
+		links: [
+			{ url: "https://showcase-app.onrender.com", label: "Create account" },
+			{ url: "https://showcase-app.onrender.com/norahjones", label: "See Norah's page" },
+			{ url: "https://showcase-app.onrender.com/megadeth", label: "See Megadeth's page" },
+			{ url: "https://showcase-app.onrender.com/jacopastorius", label: "See Jaco's page" },
+		],
 	},
 ];
