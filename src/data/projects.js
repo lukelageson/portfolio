@@ -127,4 +127,16 @@ export const projects = [
 			{ url: "https://showcase-app.onrender.com/jacopastorius", label: "See Jaco's page" },
 		],
 	},
+	{
+		id: 12,
+		title: "Reflections",
+		category: "coding",
+		tagline: "A personal project",
+		folder: "reflections",
+		date: "2025-11",
+		narrative:
+			"Reflections is a web application for self-discovery that transforms personal memories and insights into a visual glass art experience. Users create shards—individual reflections that capture distinct aspects of their lives—which are rendered with sophisticated glass aesthetics including transparency, layering, and personalized tints. Through focused introspection, these scattered fragments can be fused into unified sculptures that represent integrated self-understanding, visualized using 3D modeling and Voronoi patterns. The app features a full-stack architecture built with Node.js, Express, and PostgreSQL, complemented by dynamic client-side rendering and visual effects. It embodies the philosophical concept that self-knowledge evolves from fragmented glimpses into a cohesive, crystallized whole through sustained inner illumination.",
+		layout: "carousel",
+		links: [{ url: "https://reflections-559b.onrender.com/", label: "Visit Site" }],
+	},
 ];
