@@ -99,7 +99,7 @@ export const projects = [
 		narrative:
 			"Check the weather, manage tasks, and monitor your projects all in one place with this sleek and intuitive dashboard design. Featuring real-time data updates, a user-friendly interface, and selectable color schemes, this dashboard is perfect for professionals looking to stay organized and efficient throughout their day.",
 		layout: "carousel",
-		links: [{ url: "https://lukebobuke.github.io/dashboard/", label: "Visit Site" }],
+		links: [{ url: "https://lukelageson.github.io/dashboard/", label: "Visit Site" }],
 	},
 	{
 		id: 10,
