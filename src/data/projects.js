@@ -139,4 +139,25 @@ export const projects = [
 		layout: "carousel",
 		links: [{ url: "https://reflections-559b.onrender.com/", label: "Visit Site" }],
 	},
+	{
+		id: 13,
+		title: "Ouroboros",
+		category: "coding",
+		tagline: "A personal project",
+		folder: "ouroboros",
+		date: "2026-03",
+		narrative:
+			"I experience time as a spiral seen from above. Spring is always on the right, fall always on the left. The growing end of the spiral covers everything older than a year, so today is always sitting directly on top of the same day last year. That proximity is the interesting part. You find yourself wondering what you were doing then.\nOuroboros is a 3D journaling app built to make that experience navigable. Users write entries that appear as colored beads along a helix rendered in Three.js, with bead color chosen from a palette so each person builds their own visual language over time. The default camera is top-down, matching how I actually see it. Rotating the camera tips the spiral into three dimensions and reveals the full vertical stack of years receding downward into the past.\nThe whole spatial vocabulary is borrowed from architectural drawing. Plan view looks straight down at the spiral. Detail view crops in on a specific region. A section cut slider controls how far back in time you can see. These aren't arbitrary UI labels. They're the same tools I used to communicate buildings, applied to a different kind of structure.\nBuilt on Node.js, Express, PostgreSQL, and vanilla JavaScript. I chose vanilla JS over React because the app is a single Three.js scene with no component tree to manage, and Showcase already demonstrates that I can work in React. Sometimes the right framework is no framework.",
+		layout: "carousel",
+		links: [
+			{
+				url: "https://ouroboros-xxqj.onrender.com/demo",
+				label: "Visit Demo Site",
+			},
+			{
+				url: "https://ouroboros-xxqj.onrender.com/",
+				label: "Visit Site",
+			},
+		],
+	},
 ];
